@@ -1,0 +1,162 @@
+body{
+    background-color: #F2FFFC;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+main div{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+    padding-bottom: 80px;
+}
+
+blockquote{
+    background-color: #D9E5E3;
+    padding: 15px;
+    border: 10px solid #C2CCCA;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.bq1{
+    float:right;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.bq2{
+    float:left;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+main h1{
+    font-size: 60px;
+    background-color: rgb(120,30,60);
+    color: rgb(255,255,255);
+    text-align: center;
+    font-family: "Open Sans Condensed",sans-serif;
+    padding: 25px;
+    text-transform: uppercase;
+    border-bottom: 10px solid black;
+    width: 100%;
+}
+
+h2,h1{
+    padding: 15px;
+    font-size: 35px;
+    font-family: "Open Sans Condensed",sans-serif;
+    clear:both;
+}
+
+p{
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.clearlimp{
+    clear:both;
+}
+
+aside{
+    background-color:#3C1D3D;
+    color: #F2FFFC;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Open Sans Condensed",sans-serif;
+    font-size: 20px;
+}
+
+.icones-sociais li{
+    display: inline-block;
+}
+
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+
+.cortags a{
+    color: brown;
+    font-size: 25px;
+    padding: 8px;
+}
+footer{
+    background-color: black;
+    color: rgb(255,255,255);
+    padding: 10px;
+}
+
+ul {
+  color: rgb(255,255,255);
+}
+ul li a {
+  color: rgb(255,255,255);
+}
+
+aside h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.github{
+    background-image: url(github.png);
+}
+
+.twitter{
+    background-image: url(twitter.png);
+}
+
+img,aside{
+    float: right;
+    box-sizing: border-box;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+}
+
+aside{
+    width: 15%;
+    clear: right;
+    position: relative;
+    top: 310px;
+}
+
+footer{
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+img{
+    position: absolute;
+    right: 0px;
+    top: 0px;    
+}
+
+.asideblog{
+    float: none;
+    position: absolute;
+    right: 0px;
+    top: 150px;
+}
+
+.mainblog{
+    width: 100%;
+    float: none; 
+}
+
+.mainbio{
+    width: 85%;
+    float:left
+}
+

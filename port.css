@@ -1,0 +1,117 @@
+body{
+    background-color: #F2FFFC;
+    font-family: "Crimson Text", serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+main div{
+    width: 800px;
+    margin-left: 420px;
+    padding-bottom: 80px;
+    margin-top: 40px;
+}
+
+
+
+main h1{
+    font-size: 60px;
+    background-color: rgb(120,30,60);
+    color: rgb(255,255,255);
+    text-align: center;
+    font-family: "Open Sans Condensed",sans-serif;
+    padding: 25px;
+    text-transform: uppercase;
+    border-bottom: 10px solid black;
+    width: 100%;
+}
+
+aside{
+    background-color:#3C1D3D;
+    color: #F2FFFC;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Open Sans Condensed",sans-serif;
+    font-size: 20px;
+}
+
+.icones-sociais li{
+    display: inline-block;
+}
+
+.icones-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+    color: rgb(255,255,255);
+}
+
+aside h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.github{
+    background-image: url(github.png);
+}
+
+.twitter{
+    background-image: url(twitter.png);
+}
+
+.white{
+    color: rgb(255,255,255);
+}
+
+aside{
+    box-sizing: border-box;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    float: none;
+    position: absolute;
+    right: 0px;
+    top: 150px;
+    width: 15%;
+}
+
+.portifolio{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.portifolio li{
+    display: inline-block;
+    border: 8px solid black;
+    background-color: #FAFFFC;
+    width: 45%;
+    box-sizing: border-box;
+    padding: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    
+}
+
+.portifolio img{
+    width: 100%;
+}
+
+footer{
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: rgb(255,255,255);
+    padding: 10px;
+}
+
+h1{
+    padding: 15px;
+    font-size: 35px;
+    font-family: "Open Sans Condensed",sans-serif;
+    clear:both;
+}
